@@ -2,7 +2,7 @@
   "name": "artcryption",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Aldrin19.github.io/artcryption-frontend",
+  "homepage": "http://Aldrin19.github.io/artcryption",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
