@@ -1,0 +1,142 @@
+@font-face {
+    font-family: font_bold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: font_light;
+    src: url("../fonts/Gilroy-Light.ttf");
+}
+@font-face {
+    font-family: font_semibold;
+    src: url("../fonts/Gilroy-SemiBold.ttf");
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.container-header{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.items-1{
+    display: flex;
+    align-items: center;
+}
+.items-1 a{
+    text-decoration: none;
+    font-family: font_semibold;
+    margin:0 10px;
+    color:  #292D32;
+}
+.items-2{
+    display: flex;
+    align-items: center;
+}
+.items-2 a{
+    margin:0 12px;
+}
+#profile_photo{
+    width: 40px;
+    height: 40px;
+}
+.items-2 img{
+   width: 18px;
+   height: 18px;
+}
+.logo{
+   
+    display: flex;
+    align-items: center;
+   
+}
+.logo label{
+   font-family: font_bold;
+   font-size: 20px;
+   color: #000000;
+   margin-left: 15px;
+}
+.logo img{
+    height: 60px;
+    width: 44px;
+}
+@media screen and (max-width:1056px) {
+    .logo label{
+        font-size: 17px;
+        color: #000000;
+       
+     }
+     .logo img{
+         height: 59px;
+         width: 39px;
+     }
+    .container-header{
+        width: 100%;
+        justify-content:space-around;
+        margin:10 7px;
+
+    }
+    .items-1 a{
+        font-size: 15px;
+    }
+    .items-2 img{
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+    }
+    
+
+}
+@media  screen and (max-width:982px) {
+
+   .container-header{
+       justify-content: space-around;
+       width: 100%;
+}
+    #profile_photo{
+        width: 30px;
+        height: 30px;
+    }
+    .logo label{
+        margin-left:2px ;
+    }
+    .logo img{
+        height: 50px;
+        width: 35px;
+    }
+}
+@media screen and (max-width:900px) {
+    .container-header{
+       display: block;
+       width: 90%;
+    }
+    .logo{
+       display: flex;
+       justify-content: center;
+    }
+    .logo img{
+        height: 60px;
+        width: 44px;
+     }
+    .logo label{
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .items-1{
+        width: 100%;
+        margin-top: 8px;
+        justify-content: space-around;
+
+
+    }
+    .items-1 a{
+        font-size: 16px;
+    }
+    .items-2{
+        margin-top: 15px;
+        justify-content: center;
+    }
+    
+}
