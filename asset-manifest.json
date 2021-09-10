@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/artcryption/static/css/main.f5a5cdfe.chunk.css",
+    "main.js": "/artcryption/static/js/main.429895db.chunk.js",
+    "main.js.map": "/artcryption/static/js/main.429895db.chunk.js.map",
+    "runtime-main.js": "/artcryption/static/js/runtime-main.aeb3604f.js",
+    "runtime-main.js.map": "/artcryption/static/js/runtime-main.aeb3604f.js.map",
+    "static/js/2.269efde5.chunk.js": "/artcryption/static/js/2.269efde5.chunk.js",
+    "static/js/2.269efde5.chunk.js.map": "/artcryption/static/js/2.269efde5.chunk.js.map",
+    "index.html": "/artcryption/index.html",
+    "static/css/main.f5a5cdfe.chunk.css.map": "/artcryption/static/css/main.f5a5cdfe.chunk.css.map",
+    "static/js/2.269efde5.chunk.js.LICENSE.txt": "/artcryption/static/js/2.269efde5.chunk.js.LICENSE.txt",
+    "static/media/certificate.css": "/artcryption/static/media/Roboto-Light.8be2d148.ttf",
+    "static/media/img_art.8110a31f.png": "/artcryption/static/media/img_art.8110a31f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aeb3604f.js",
+    "static/js/2.269efde5.chunk.js",
+    "static/css/main.f5a5cdfe.chunk.css",
+    "static/js/main.429895db.chunk.js"
+  ]
+}
